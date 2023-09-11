@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: blog例子
+subtitle: 小标题可以在这里写
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+# gh-badge: [star, fork, follow]
+tags: [标签1, 标签2, 标签3]
 comments: true
 ---
 
@@ -24,8 +24,4 @@ blog的主体直接像txt一样写就可以。
 
 ![pic](https://jinan789.github.io/assets/img/avatar-icon.png)
 
-（把图片放在kexin-lee.github.io/assets/img/这个文件夹下，然后放图片进去，然后把上面括号里面的链接最后面的“avatar-icon.png”删掉改成你需要的图片即可）
-
-这样子可以居中：
-
-![pic](https://jinan789.github.io/assets/img/avatar-icon.png){: .mx-auto.d-block :}
+（把图片放在kexin-lee.github.io/assets/img/这个文件夹下，然后放图片进去，然后把上面括号里面的链接最后面的“avatar-icon.png”删掉改成你需要的图片文件名即可）
