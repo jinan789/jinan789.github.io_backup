@@ -8,71 +8,24 @@ tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+blog的主体直接像txt一样写就可以。
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+额外的一些feature是用markdown这个语言完成的，但是markdown很简单，一个例子在： [这个链接](https://markdowntutorial.com/)
 
 
-How about a yummy crepe?
+一些简单的feature：
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+**用左右各两个星号包围的字体可以加粗**
 
-It can also be centered!
+## 两个井号开头的是标题
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
 
-Here's a code chunk:
+添加图片的话，像下面这样：
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+![pic](https://jinan789.github.io/assets/img/avatar-icon.png)
 
-And here is the same code with syntax highlighting:
+（把图片放在kexin-lee.github.io/assets/img/这个文件夹下，然后放图片进去，然后把上面括号里面的链接最后面的“avatar-icon.png”删掉改成你需要的图片即可）
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+这样子可以居中：
 
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+![pic](https://jinan789.github.io/assets/img/avatar-icon.png){: .mx-auto.d-block :}
