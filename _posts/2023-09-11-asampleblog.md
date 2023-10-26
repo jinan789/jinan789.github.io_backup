@@ -22,6 +22,6 @@ blog的主体直接像txt一样写就可以。
 
 添加图片的话，像下面这样：
 
-![pic](https://jinan789.github.io/assets/img/avatar-icon.png)
+![pic](https://kexin-lee.github.io/assets/img/avatar-icon.png)
 
 （把图片放在kexin-lee.github.io/assets/img/这个文件夹下，然后放图片进去，然后把上面括号里面的链接最后面的“avatar-icon.png”删掉改成你需要的图片文件名即可）
